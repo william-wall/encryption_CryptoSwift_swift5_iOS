@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14AC82B238C4666003EFE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14AC82A238C4666003EFE61 /* AppDelegate.swift */; };
+		E14AC82D238C4666003EFE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14AC82C238C4666003EFE61 /* SceneDelegate.swift */; };
+		E14AC82F238C4666003EFE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14AC82E238C4666003EFE61 /* ViewController.swift */; };
+		E14AC832238C4666003EFE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14AC830238C4666003EFE61 /* Main.storyboard */; };
+		E14AC834238C4668003EFE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14AC833238C4668003EFE61 /* Assets.xcassets */; };
+		E14AC837238C4668003EFE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14AC835238C4668003EFE61 /* LaunchScreen.storyboard */; };
+		E14AC83F238C46F0003EFE61 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E14AC83E238C46F0003EFE61 /* Podfile */; };
+		E4B8FD8646D24334A62B1607 /* Pods_Encrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0E2782054994DB78401010 /* Pods_Encrypt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1D7D71457A311A6FBEC76E6 /* Pods-Encrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encrypt.release.xcconfig"; path = "Target Support Files/Pods-Encrypt/Pods-Encrypt.release.xcconfig"; sourceTree = "<group>"; };
+		DC1FB218C91F84E4636087D2 /* Pods-Encrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encrypt.debug.xcconfig"; path = "Target Support Files/Pods-Encrypt/Pods-Encrypt.debug.xcconfig"; sourceTree = "<group>"; };
+		E14AC827238C4666003EFE61 /* Encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14AC82A238C4666003EFE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E14AC82C238C4666003EFE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E14AC82E238C4666003EFE61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E14AC831238C4666003EFE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E14AC833238C4668003EFE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14AC836238C4668003EFE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E14AC838238C4668003EFE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14AC83E238C46F0003EFE61 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FC0E2782054994DB78401010 /* Pods_Encrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14AC824238C4666003EFE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B8FD8646D24334A62B1607 /* Pods_Encrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897D3A7CF17A87A13D5E574A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E2782054994DB78401010 /* Pods_Encrypt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B7A0BB22B9E6E53AB25391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FB218C91F84E4636087D2 /* Pods-Encrypt.debug.xcconfig */,
+				D1D7D71457A311A6FBEC76E6 /* Pods-Encrypt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E14AC81E238C4666003EFE61 = {
+			isa = PBXGroup;
+			children = (
+				E14AC83E238C46F0003EFE61 /* Podfile */,
+				E14AC829238C4666003EFE61 /* Encrypt */,
+				E14AC828238C4666003EFE61 /* Products */,
+				C4B7A0BB22B9E6E53AB25391 /* Pods */,
+				897D3A7CF17A87A13D5E574A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E14AC828238C4666003EFE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14AC827238C4666003EFE61 /* Encrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14AC829238C4666003EFE61 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				E14AC82A238C4666003EFE61 /* AppDelegate.swift */,
+				E14AC82C238C4666003EFE61 /* SceneDelegate.swift */,
+				E14AC82E238C4666003EFE61 /* ViewController.swift */,
+				E14AC830238C4666003EFE61 /* Main.storyboard */,
+				E14AC833238C4668003EFE61 /* Assets.xcassets */,
+				E14AC835238C4668003EFE61 /* LaunchScreen.storyboard */,
+				E14AC838238C4668003EFE61 /* Info.plist */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14AC826238C4666003EFE61 /* Encrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14AC83B238C4668003EFE61 /* Build configuration list for PBXNativeTarget "Encrypt" */;
+			buildPhases = (
+				8023ABD27EE4C9D7A842EE1E /* [CP] Check Pods Manifest.lock */,
+				E14AC823238C4666003EFE61 /* Sources */,
+				E14AC824238C4666003EFE61 /* Frameworks */,
+				E14AC825238C4666003EFE61 /* Resources */,
+				04451B46C6B021547A982A68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encrypt;
+			productName = Encrypt;
+			productReference = E14AC827238C4666003EFE61 /* Encrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14AC81F238C4666003EFE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					E14AC826238C4666003EFE61 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E14AC822238C4666003EFE61 /* Build configuration list for PBXProject "Encrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14AC81E238C4666003EFE61;
+			productRefGroup = E14AC828238C4666003EFE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14AC826238C4666003EFE61 /* Encrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14AC825238C4666003EFE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14AC837238C4668003EFE61 /* LaunchScreen.storyboard in Resources */,
+				E14AC834238C4668003EFE61 /* Assets.xcassets in Resources */,
+				E14AC83F238C46F0003EFE61 /* Podfile in Resources */,
+				E14AC832238C4666003EFE61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04451B46C6B021547A982A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Encrypt/Pods-Encrypt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Encrypt/Pods-Encrypt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Encrypt/Pods-Encrypt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8023ABD27EE4C9D7A842EE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Encrypt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14AC823238C4666003EFE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14AC82F238C4666003EFE61 /* ViewController.swift in Sources */,
+				E14AC82B238C4666003EFE61 /* AppDelegate.swift in Sources */,
+				E14AC82D238C4666003EFE61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E14AC830238C4666003EFE61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14AC831238C4666003EFE61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E14AC835238C4668003EFE61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14AC836238C4668003EFE61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14AC839238C4668003EFE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E14AC83A238C4668003EFE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14AC83C238C4668003EFE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1FB218C91F84E4636087D2 /* Pods-Encrypt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Encrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E14AC83D238C4668003EFE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D7D71457A311A6FBEC76E6 /* Pods-Encrypt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Encrypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14AC822238C4666003EFE61 /* Build configuration list for PBXProject "Encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14AC839238C4668003EFE61 /* Debug */,
+				E14AC83A238C4668003EFE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14AC83B238C4668003EFE61 /* Build configuration list for PBXNativeTarget "Encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14AC83C238C4668003EFE61 /* Debug */,
+				E14AC83D238C4668003EFE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14AC81F238C4666003EFE61 /* Project object */;
+}
